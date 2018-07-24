@@ -1,0 +1,35 @@
+html {
+	font-family: sans-serif;
+	background-color: white;
+	margin: 40px;
+}
+
+body {
+	border-top: 5px solid #555;
+	border-bottom:5px solid #555;
+	margin: auto;
+	max-width: 900x;
+}
+
+img {
+margin: 30px;
+width: 10%;
+float: center;
+border: 2px solid lightgray;
+}
+
+header {
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+a{color: pink;}
+
+footer {
+	clear: both;
+}
+
+

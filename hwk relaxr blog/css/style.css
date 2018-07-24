@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0efef;
+  margin: 0;
+}
+
+* {
+  box-sizing: inherit;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+      }
+
+header {
+  width: 100%;
+  background-color: #033048;
+  padding: 1rem;
+}
+
+header img {
+  float: left;
+}
+
+main {
+  width: 70%;
+  padding: 1rem;
+}
+
+main img {
+  width: 100%;
+}
+
+main div {
+  text-align: right;
+}
+
+main p:first-letter {
+  font-size: 300%;
+  float: left;
+  padding-right: .5rem;
+  font-weight: 600;
+}
+
+aside {
+  width: 30%;
+  padding: 1rem;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer div {
+  background-color: #f9e42e;
+}
+
+
+
+
+h1 {
+  font-color: #606161;
+}
+
+button {
+  background: #033048;
+  color: white;
+  border: 0;
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+.topnav {
+    overflow: hidden;
+    float: right;
+}
+
+.topnav a {
+    color: #f9e42e;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: semibold;
+  }
+
+.bottomnav {
+    background-color: #121212;
+}
+
+.bottomnav p {
+   font-color: #606161;
+}
+
+h2 {
+  font-color: #033048;
+}
+
+
+
