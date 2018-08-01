@@ -1,0 +1,128 @@
+:root {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	--primary: #ffa33c;
+	--secondary: #00ccff;
+}
+
+*{
+	box-sizing: inherit;
+	margin: 0;
+}
+
+header, main, footer {
+	padding: 2rem;
+	border-bottom: .25rem solid var(--primary);
+}
+
+header {
+	background: url(../img/sharing.jpg), var(--secondary);
+	background-blend-mode: luminosity;
+	background-size: cover;
+	text-align: right;
+}
+
+main {
+	color: var(--primary);
+}
+
+footer {
+	background-color: var(--secondary);
+	color: white;
+	border: none;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+h1, h2 {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h2, h3, p {
+	margin-bottom: 1rem;
+}
+
+p {
+	line-height: 1.5;
+}
+
+#menu-toggle {
+	border: none;
+	background-color: transparent;
+	height: 2.5rem;
+	width: 2.5rem;
+	position: relative;
+	outline: none;
+	cursor: pointer;
+}
+
+#menu-toggle span {
+	background-color: white;
+	height: 5px;
+	width: 100%;
+	display: block;
+	position: absolute;
+	position: absolute;
+}
+
+#menu-toggle span:nth-child(1) {
+	top: 0;
+}
+
+#menu-toggle span:nth-child(2) {
+	top: 14px;
+}
+
+#menu-toggle span:nth-child(3) {
+	top: 28px;
+}
+
+#main-menu {
+	position: absolute;
+	top: 6rem;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,.7);
+	display: none;
+}
+
+#main-menu a {
+	line-height: 4rem;
+	border-bottom: 1px solid white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#main-menu a:last-child {
+	border: 0;
+}
+
+.open #main-menu {
+	display: block;
+}
+
+img {
+	max-width: 100%;
+}
+
+[src $='how.png'] {
+	margin-bottom: calc(-2px + -2rem);
+}
+
+footer [src]
