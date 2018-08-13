@@ -21,14 +21,24 @@ html {
 .back, .next {
   border: 0;
   font-size: 1.3rem;
-  color: white;
-  background-color: green;
+  color: var(--white);
+  background-color: var(--green);
   padding: .75rem 1rem;
   margin: 1rem;
   border-radius: 8px;
   border-bottom: 2px solid rgba(0,0,0,.85);
 }
 
+.lesson {
+  border: 0;
+  font-size: 1.3rem;
+  color: var(--white);
+  background-color: var(--green);
+  padding: .75rem 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  border-bottom: 2px solid rgba(0,0,0,.85);
+}
 
 .section {
   background-color: var(--white);
@@ -40,4 +50,9 @@ html {
 
 audio {
 	background-color: var(--pearl);
+}
+
+nav, h1{
+  text-align: center;
+
 }
