@@ -19,7 +19,19 @@ html {
   margin: 0;
 }
 
-.back, .next {
+.back, .next, .lesson {
+  border: 0;
+  font-size: 1.3rem;
+  color: var(--white);
+  background-color: var(--green);
+  padding: .75rem 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  border-bottom: 2px solid rgba(0,0,0,.85);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.lesson {
   border: 0;
   font-size: 1.3rem;
   color: var(--white);
@@ -30,26 +42,29 @@ html {
   border-bottom: 2px solid rgba(0,0,0,.85);
 }
 
-.lesson {
-  border: 0;
-  font-size: 1.3rem;
-  color: var(--pink);
-  background-color: var(--white);
-  padding: .75rem 1rem;
-  margin: 1rem;
-  border-radius: 8px;
-  border-bottom: 2px solid rgba(0,0,0,.85);
-}
-
-.section {
+.section, .selection {
   background-color: var(--yellow);
+  color: var(--pink);
   padding: 7rem;
-  border-left: 3rem solid var(--);
+  border: 10rem solid var(--orange);
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  text-align: center;
+
+}
+
+a {
+  color: var(--pink);
+}
+
+a:visited {
+  color: var(--pink)
+
 }
 
 nav, h1{
