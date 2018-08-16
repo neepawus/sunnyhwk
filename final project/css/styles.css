@@ -19,6 +19,47 @@ html {
   margin: 0;
 }
 
+.lesson {
+  border: 0;
+  font-size: 1.3rem;
+  color: var(--white);
+  background-color: var(--green);
+  padding: .75rem 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  border-bottom: 2px solid rgba(0,0,0,.85);
+}
+
+.section {
+  background-color: var(--yellow);
+  color: var(--pink);
+  padding: 7rem;
+  border: 6rem solid var(--orange);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+.selection {
+  background-color: var(--yellow);
+  color: var(--pink);
+  padding: 7rem;
+  border: 6rem solid var(--orange);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
 .back, .next, .lesson {
   border: 0;
   font-size: 1.3rem;
@@ -31,32 +72,25 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-.lesson {
-  border: 0;
-  font-size: 1.3rem;
-  color: var(--white);
-  background-color: var(--green);
-  padding: .75rem 1rem;
-  margin: 1rem;
-  border-radius: 8px;
-  border-bottom: 2px solid rgba(0,0,0,.85);
-}
-
-.section, .selection {
+.dict {
   background-color: var(--yellow);
   color: var(--pink);
   padding: 7rem;
-  border: 10rem solid var(--orange);
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border: 2rem solid var(--orange);
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
-  text-align: center;
+}
+
+.word {
 
 }
+
+.mainword {
+  color: var(--pink);
+  font-weight: 700;
+}
+
+
 
 a {
   color: var(--pink);
@@ -65,6 +99,10 @@ a {
 a:visited {
   color: var(--pink)
 
+}
+
+audio {
+padding-top: 5rem;
 }
 
 nav, h1{
