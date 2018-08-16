@@ -3,12 +3,11 @@ html {
   font-family: sans-serif;
   line-height: 1.5;
   scroll-behavior: smooth;
-  --white: #f7f7f2;
-  --yellow: #EFEA5A;
-  --green: #16DB93;
-  --blue: #048BA8;
-  --orange: #F29E4C;
-  --pink: #A4036F;
+  --white: #ffffff;
+  --darkblue: #2c4251;
+  --lightblue: #93b7be;
+  --offwhite: #f1fffa;
+  --brown: #d5c7bc;
   background-color: var(--white);
   color: var(--black);
 }
@@ -19,11 +18,16 @@ html {
   margin: 0;
 }
 
+.primary {
+  background-color: var(--lightblue);
+  color: var(--offwhite);
+}
+
 .lesson {
   border: 0;
   font-size: 1.3rem;
-  color: var(--white);
-  background-color: var(--green);
+  color: var(--offwhite);
+  background-color: var(--lightblue);
   padding: .75rem 1rem;
   margin: 1rem;
   border-radius: 8px;
@@ -31,10 +35,10 @@ html {
 }
 
 .section {
-  background-color: var(--yellow);
-  color: var(--pink);
+  background-color: var(--white);
+  color: var(--darkblue);
   padding: 7rem;
-  border: 6rem solid var(--orange);
+  border: 6rem solid var(--brown);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -47,10 +51,10 @@ html {
 
 
 .selection {
-  background-color: var(--yellow);
-  color: var(--pink);
+  background-color: var(--white);
+  color: var(--darkblue);
   padding: 7rem;
-  border: 6rem solid var(--orange);
+  border: 6rem solid var(--brown);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,8 +67,8 @@ html {
 .back, .next, .lesson {
   border: 0;
   font-size: 1.3rem;
-  color: var(--white);
-  background-color: var(--green);
+  color: var(--offwhite);
+  background-color: var(--lightblue);
   padding: .75rem 1rem;
   margin: 1rem;
   border-radius: 8px;
@@ -73,10 +77,10 @@ html {
 }
 
 .dict {
-  background-color: var(--yellow);
+  background-color: var(--white);
   color: var(--pink);
   padding: 7rem;
-  border: 2rem solid var(--orange);
+  border: 2rem solid var(--brown);
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -86,18 +90,41 @@ html {
 }
 
 .mainword {
-  color: var(--pink);
+  color: var(--darkblue);
   font-weight: 700;
+}
+
+
+nav {
+  min-height: 4rem;
+  text-align: right;
+  padding: 1rem 3rem 0;
+}
+
+.open #menu {
+  display:block;
+}
+
+#menu a {
+  color: var(--offwhite);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 1rem;
+  display: block;
+}
+
+#menu-toggle {
+  height: 2rem;
 }
 
 
 
 a {
-  color: var(--pink);
+  color: var(--offwhite);
 }
 
 a:visited {
-  color: var(--pink)
+  color: var(--offwhite)
 
 }
 

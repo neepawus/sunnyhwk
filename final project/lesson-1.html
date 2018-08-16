@@ -2,19 +2,44 @@
 <html>
 <head>
   <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
   <title>Wôpanâak: Lesson 1</title>
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
 <body>
+
+
+<nav class="primary">
+	<img src="img/menu-icon.svg" id="menu-toggle">
+    <div id="menu">
+      <a href="lesson-choose.html">Lessons</a>
+      <a href="dictionary-choose.html">Dictionary</a>
+    </div>
+ </nav>
+
+
 <div id="intro" class="section">
+
+	<nav class="primary">
+		<img src="img/menu-icon.svg" id="menu-toggle">
+    	<div id="menu">
+    		 <a href="lesson-choose.html">Lessons</a>
+      		<a href="dictionary-choose.html">Dictionary</a>
+
+   
+ 	</nav>
+ 	
 	<p>Each language has their own unique sound system! </p>
 		<p>Many languages have unique ways of presenting these sounds.</p>
 		<p> The following will show you the ways that Wôpanâôt8âôk is written and pronounced!</p>
 	<div>
 		<button class="back"><a href="lesson-choose.html">back</a></button>
 		<button class="next"><a href="#vowels">next</a></button>
+	</div>
+
+	
 	</div>
 </div>
 
@@ -370,8 +395,17 @@ $('.audiofiles').click(function(){
 let file=$(this).data('audio');
 let audio=new Audio(file);
 audio.play()
-});
+});  
+</script>
 
+<script>
+
+    $('#menu-toggle').click(function(){
+
+      $('nav.primary').toggleClass('open');
+
+
+    });
 
 </script>
 </body>
