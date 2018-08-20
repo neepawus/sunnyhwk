@@ -8,8 +8,9 @@ html {
   --lightblue: #93b7be;
   --offwhite: #f1fffa;
   --brown: #d5c7bc;
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--brown);
+  color: var(--darkblue);
+
 }
 
 * {
@@ -36,6 +37,8 @@ html {
 
 .section {
   background-color: var(--white);
+  border: solid var(--white);
+  border-radius: 7rem;
   color: var(--darkblue);
   padding: 7rem;
   border: 6rem solid var(--brown);
@@ -47,14 +50,16 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   text-align: center;
+
 }
 
 
 .selection {
   background-color: var(--white);
+  border:  solid var(--brown);
+  border-radius: 5rem;
   color: var(--darkblue);
   padding: 7rem;
-  border: 6rem solid var(--brown);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,7 +98,6 @@ html {
   color: var(--darkblue);
   font-weight: 700;
 }
-
 
 input {
   font-size: 1.3rem;
